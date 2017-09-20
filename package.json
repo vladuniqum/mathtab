@@ -1,0 +1,23 @@
+{
+  "name": "mathtab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vladuniqum/mathtab.git"
+  },
+  "author": "vlad",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vladuniqum/mathtab/issues"
+  },
+  "homepage": "https://github.com/vladuniqum/mathtab#readme",
+  "dependencies": {
+    "express": "^4.15.4"
+  }
+}
