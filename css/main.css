@@ -1,0 +1,32 @@
+body{
+    background: #fff url(../img/tiles.png  ) repeat;
+}
+
+.navbar-container, .bg-mathnav-dark {
+    background-color: #003366
+}
+.footer{
+    color: #999;
+}
+
+.container.content-body {
+    background-color: #DDDDDD;
+    height: 650px;
+}
+.nav-item.nav-link {
+    background-color: #0066CC
+}
+.active.nav-item.nav-link {
+    background-color: #FF9933
+}
+.collapse.navbar-collapse {
+    height:60px;
+    margin: 0;
+}
+.nav-bottom {
+    background-color: #333;
+    height: 8em;
+}
+.centered {
+	text-align: center;
+}
