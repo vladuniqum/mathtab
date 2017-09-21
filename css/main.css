@@ -11,7 +11,7 @@ body{
 
 .container.content-body {
     background-color: #DDDDDD;
-    height: 650px;
+    
 }
 .nav-item.nav-link {
     background-color: #0066CC
@@ -23,7 +23,7 @@ body{
     height:60px;
     margin: 0;
 }
-.nav-bottom {
+.nav-bottom .container{
     background-color: #333;
     height: 8em;
 }
