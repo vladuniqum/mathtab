@@ -2,6 +2,8 @@
  function draw (){
     functionPlot({
         target: '#mathPlot',
+		width: 420,
+        height: 400,
         xAxis: {
           label: 'real'
         }, 

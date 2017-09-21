@@ -30,3 +30,8 @@ body{
 .centered {
 	text-align: center;
 }
+@media (max-width: 380px) { 
+    #mathPlot{
+        width: 380px;
+    }
+}
