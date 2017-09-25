@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" >
+    <link rel="stylesheet" href="css/main.css" >
+  </head>
+  <body>
+	<div class="container navbar-container">
+     
+        <nav class="navbar navbar-expand-lg navbar-dark bg-mathnav-dark">
+            <a class="navbar-brand" href="#"><img src="img/logo2.png" width="176" height="34" class="d-inline-block align-top" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a href ="index.html" class="nav-item nav-link active" href="#">Тренировка</a>
+                    <a  href ="quiz.html" class="nav-item nav-link" href="#">Пройти тест</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+          
+    <!-- Large modal -->
+
+
+    <!-- Modal -->
+    
+
+    <div class="container content-body">
+      <p>На этой страничке вы можете пройти тест на закрепление материала.Перед вами представлен график и варианты ответов.При верном ответе кнопка загориться зеленым.Нажмите её для перехода к 
+        следующему вопросу.По окончанию можно будет ознакомиться с результатами теста и получить рекомендации.
+      </p>
+
+        <div class="row">
+			<div class="col-lg-6 col-md-8 col-sm-9">
+                <div id="mathPlot"></div>
+            </div>
+            <div class="col-lg-6 col-md-4 col-sm-3">
+                <div class="list-group">
+					<div class="form-check">
+                        <label class="form-check-label">
+                          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                          <img src="img/onebyx.png">
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <label class="form-check-label">
+                          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                          <img src="img/sqrt.png">
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <label class="form-check-label">
+                          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                          <img src="img/abs.png">
+                        </label>
+                      </div>
+                      <div class="radio">
+                      <div class="form-check" id="btn btn-success">
+                      
+
+                      
+                        <label class="form-check-label">
+                          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                          <img src="img/sin.png">
+                        </label>
+                    </div>
+                      </div>
+                      
+                      
+                     
+					<button id="btnNext" class="btn btn-success" data-toggle="modal" data-target="#resultModal">Далее</button>
+					
+					
+				</div>
+            </div>
+        </div>
+        <div>* Выберите функцию из списка для отображении на графике</div>
+          
+    </div>
+    <footer class="nav-bottom">
+      <div class="container">
+          <nav class="nav">
+              <a href ="index.html" class="nav-link active" href="#">Тренировка</a>
+              <a href ="quiz.html" class="nav-link" href="#">Пройти</a>
+              <a class="nav-link" href="#">О программе</a>
+              
+            </nav>
+            
+        <center><div class="text-muted">Vlad Fedorenko &copy; 2017</div></center>
+
+      </div>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+      
+    <script src="js/math.min.js"></script>
+    <script src="js/d3.min.js"></script>
+    <script src="js/function-plot.js"></script>
+    <script src="js/mathpad.js"></script>
+  
+  </body>
+</html>
