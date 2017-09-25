@@ -1,4 +1,4 @@
- var fntext = "1";
+ var fntext = "sqrt(x)";
  function draw (){
     functionPlot({
         target: '#mathPlot',
@@ -68,3 +68,7 @@ $("#btnGo").on("click", function(){
   draw();
 });
 
+
+//$("#btnNext").on("click", function() {
+//  $("#resultModal").modal();
+//});
